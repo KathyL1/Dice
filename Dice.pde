@@ -1,12 +1,11 @@
 int roll;
 int sum;
-PFont font;
 void setup()
   {
       noLoop();
       size(750,790);
-      font = loadFont("CenturyGothicB1.vlw");
-  }
+
+}
   void draw()
   {
       //your code here
@@ -20,9 +19,9 @@ void setup()
       }
       strokeWeight(1);
       fill(240,221,175);
-      rect(315, 730, 125, 45);
+      rect(315, 730, 130, 45);
       fill(0);
-      textFont(font, 20);
+      textSize(20);
       text("Sum: " + sum, 335, 760);
   }
   void mousePressed()
