@@ -5,6 +5,7 @@ void setup()
       noLoop();
       size(750,790);
       background(247,221,148);
+
 }
   void draw()
   {
@@ -43,7 +44,14 @@ void setup()
       {
         roll = (int)(Math.random()*6) + 1;    
         sum = sum + roll;
-        if(roll == 1){ 
+      }
+      void show()
+      {
+          //your code here
+          fill(255);
+          strokeWeight(1.5);
+          rect(myX, myY, 50, 50, 7);
+         if(roll == 1){ 
           fill(0);
           ellipse(myX + 25, myY +25, 5, 5);
          }else if (roll == 2){
@@ -77,13 +85,5 @@ void setup()
         ellipse(myX + 40, myY + 25, 5, 5);
         ellipse(myX + 10, myY + 25, 5, 5); 
       }
-      }
-      void show()
-      {
-          //your code here
-          fill(255);
-          strokeWeight(1.5);
-          rect(myX, myY, 50, 50, 7);
-         
       }
   }
