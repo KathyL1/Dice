@@ -4,12 +4,11 @@ void setup()
   {
       noLoop();
       size(750,790);
-
+      background(247,221,148);
 }
   void draw()
   {
       //your code here
-      background(247,221,148);
       for(int y = 50; y < 685; y+=55){
         for(int x = 50; x <685; x+=55){
           Die cube = new Die(x,y);
