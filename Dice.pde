@@ -1,5 +1,5 @@
-int roll;
 int sum;
+int roll;
 void setup()
   {
       noLoop();
@@ -13,8 +13,8 @@ void setup()
       for(int y = 50; y < 685; y+=55){
         for(int x = 50; x <685; x+=55){
           Die cube = new Die(x,y);
-          cube.show();
           cube.roll();
+          cube.show();
         }
       }
       strokeWeight(1);
@@ -39,7 +39,7 @@ void setup()
           //variable initializations here
           myX = x;
           myY = y;
-      }
+          }
       void roll()
       {
         roll = (int)(Math.random()*6) + 1;    
