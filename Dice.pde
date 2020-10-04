@@ -52,32 +52,32 @@ void setup()
           strokeWeight(1.5);
           rect(myX, myY, 50, 50, 7);
          if(roll == 1){ 
-          fill(0);
+          fill(223,24,250);
           ellipse(myX + 25, myY +25, 5, 5);
          }else if (roll == 2){
-          fill(0);
+          fill(223,24,250);
           ellipse(myX + 10, myY + 10, 5, 5);
           ellipse(myX + 40, myY + 40, 5, 5); 
          }else if(roll == 3) {
-          fill(0);
+          fill(223,24,250);
           ellipse(myX + 25, myY +25, 5, 5);
           ellipse(myX + 10, myY + 10, 5, 5);
           ellipse(myX + 40, myY + 40, 5, 5); 
          }else if(roll == 4){
-          fill(0);
+          fill(223,24,250);
           ellipse(myX + 10, myY + 10, 5, 5);
           ellipse(myX + 40, myY + 40, 5, 5); 
           ellipse(myX + 40, myY + 10, 5, 5);
           ellipse(myX + 10, myY + 40, 5, 5); 
       }else if(roll == 5){
-         fill(0);
+          fill(223,24,250);
          ellipse(myX + 10, myY + 10, 5, 5);
          ellipse(myX + 40, myY + 40, 5, 5); 
          ellipse(myX + 40, myY + 10, 5, 5);
          ellipse(myX + 10, myY + 40, 5, 5);    
          ellipse(myX + 25, myY +25, 5, 5);
       }else if(roll == 6){
-        fill(0);
+          fill(223,24,250);
         ellipse(myX + 10, myY + 10, 5, 5);
         ellipse(myX + 40, myY + 40, 5, 5); 
         ellipse(myX + 40, myY + 10, 5, 5);
