@@ -32,7 +32,7 @@ void setup()
   class Die //models one single dice cube
   {
       //member variable declarations here
-      int myX, myY, mySize; 
+      int myX, myY, roll; 
       
       Die(int x, int y) //constructor
       {
